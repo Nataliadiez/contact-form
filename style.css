@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg, #625C74, #464355);
+    color: #FCFCFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#form-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B2738;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 10px;
+    min-width: 45%;
+    box-shadow: 2px 5px 50px 5px rgb(46, 46, 46);
+}
+
+#div-form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    background-color: #3B364C;
+    border: 2px solid transparent;
+    padding: 12px 0px 12px 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    color: #FCFCFB;
+    transition: all 0.3s ease;
+}
+form input:focus {
+    border-color: #8478ac;
+    outline: none;
+    
+}
+form input:hover{
+    background-color: #585072;
+}
+#name, #lastname{
+    width: 43%;
+}
+#title-form{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+#div-account{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+#subtitle-already{
+    color:#78718b;
+}
+#subtitle-already, #link-login{
+    font-size: 13px;
+}
+#btn-send{
+    background-color: #6E54B5;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+}
+#span-terms sub a, #link-login{
+    color: #8677AF;
+}
+
+#span-terms{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+#span-terms label{
+    margin-left: 10px;
+}
+#span-terms input[type="checkbox"]:checked{ /*TODO: los checkboxes no tienen bg color*/
+    background-color: red;
+}
+#ckb-terms{
+    width: 18px;
+    height: 18px;
+}
+#ckb-terms:checked{
+    accent-color: white;
+}
+
+/* SOCIAL SECTIONS */
+#div-socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-socialMedia{
+    background: none;
+    padding: 10px 55px;
+    border: 1px solid #858196;
+    border-radius: 5px;
+    
+}
+.btn-socialMedia a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-socialMedia a img{
+    margin-right: 10px;
+}
+#register-subtitle{
+    text-align: center;
+    font-size: 12px;
+    color: #6e6880;
+}
+#apple-icon{
+    width: 20px;
+}
+#google-icon{
+    width: 20px;
+}
+
+#div-register{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.linea-recta{
+    background-color: #585366;
+    height: 1.9px;
+    width: 130px;
+}
